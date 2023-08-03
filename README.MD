@@ -20,10 +20,10 @@ Here are a few example queries you can try:
 
 ```sql
 -- Retrieve all entries from the 'word_list' table where the word contains 'درود' anywhere in the word.
-SELECT * FROM `words`.`word_list` WHERE `word` LIKE '%درود%';
+SELECT * FROM `word_list` WHERE `word` LIKE '%درود%';
 
 -- Retrieve all entries from the 'word_list' table where the word starts with 'درود'.
-SELECT * FROM `words`.`word_list` WHERE `word` LIKE 'درود%';
+SELECT * FROM `word_list` WHERE `word` LIKE 'درود%';
 
 -- Retrieve all entries from the 'word_list' table where the word ends with 'درود'.
-SELECT * FROM `words`.`word_list` WHERE `word` LIKE '%درود';
+SELECT * FROM `word_list` WHERE `word` LIKE '%درود';
